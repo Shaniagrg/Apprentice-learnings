@@ -18,3 +18,11 @@ console.log(cup);
 
 //You won't see the value added inside cup added to starbucks cuz the value is already copied
 console.log(starbucks);
+
+//Use max and min in spread
+const numbers = [10,20,30,40];
+
+///make sure you include the ... 3 DOTS
+///console.log(Math.max(numbers)); without the 3dots it won't work. NaN appears on the screen
+console.log(Math.max(...numbers));
+console.log(Math.min(...numbers));
