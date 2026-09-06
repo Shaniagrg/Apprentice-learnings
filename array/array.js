@@ -1,14 +1,7 @@
-const instruments = ['piano', 'drums', 'trumpet'];
+const planets = ['mercury', 'venus' , 'earth', 'mars'];
 
-instruments.push('guitar');
-console.log(instruments);
-
-//You can add more than one element in an array
-instruments.push('guitar', 'flute');
-console.log(instruments);
-
-instruments.unshift('bell');
-console.log(instruments);
-
-instruments.unshift('bell','flute');
-console.log(instruments);
+console.log(planets[0]);
+console.log(planets[1]);
+console.log(planets[2]);
+console.log(planets[3]);
+//console.log(planets[4]); won't work cuz out of index
