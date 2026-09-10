@@ -1,0 +1,35 @@
+/*
+Any element nested within another element like p element inside a header element
+<header>
+    <h1></h1>
+    <address>
+        <p></p
+    </address>
+</header>
+*/
+
+header p{
+    color:pink;
+}
+
+/* For h3 inside id */
+
+#education h3{
+    color:red;
+}
+
+/* usually common to style list*/
+
+li{
+    color:orange;
+}
+
+ol li {
+    color:pink;
+}
+
+/* Remove dot from ul li */
+
+ul li{
+    list-style:none;
+}
