@@ -1,0 +1,12 @@
+/* 
+Targets elemetn based on its type
+Also called ELEMENT SELECTOR
+*/
+
+body{
+    text-align: center;
+}
+
+p{
+    color: red;
+}
