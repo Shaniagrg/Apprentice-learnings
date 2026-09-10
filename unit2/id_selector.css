@@ -1,0 +1,11 @@
+/*
+Selcts the id and its Unique
+- ID wins over class
+- eg: if id color is white and class color is green the cole will be WHITE
+
+Use # ID NAME
+*/
+
+#main-content {
+    color:white;
+}
