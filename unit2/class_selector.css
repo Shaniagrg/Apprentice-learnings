@@ -1,0 +1,9 @@
+/*
+The CSS .class selector selects elements with a specific class attribute value.
+
+To select all kinds of elements with a specific class, write a period (.) character, followed by the class attribute value.
+*/
+
+.img-user{
+    width:80px;
+}
