@@ -1,0 +1,35 @@
+/*
+Pseudo-class is a keyboard added to a selector that specifies a special state of the selected elements. 
+*/
+
+a:link {
+    color:darkblue
+}
+
+a:visited {
+    color: seagreen;
+}
+
+/* 
+Note that hove only works for mouse that means the underline won't show for touchscreen
+- When styling make sure the links look like link without forcing your user to hover over them to discover it
+*/
+a:hover{
+    text-decoration: underline;
+}
+
+img:hover{
+    border: 8px solid blue;
+    border-radius: 8px;
+}
+
+/*
+Focus pseudo-class is only applied to interactive elements like links, button and form elements.
+The style is applied as soon as the element has received  focus which means the browser discovered that a user is ready to interact with it.
+It helps you navigate your site using a keyboard instead of mouse. 
+*/
+
+a:focus{
+    color:white;
+    background-color: orange;
+}
