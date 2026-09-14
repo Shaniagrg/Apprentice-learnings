@@ -1,0 +1,36 @@
+/*
+<div id="main-content" class="box" title="Tooltip">
+  ...
+</div>
+*/
+
+[title] {
+    color: indigo;
+}
+
+div[title] {
+padding: 15px;
+}
+
+div[title="Tooltip"] {
+border: 1px solid lemonchiffon;
+}
+
+input[type="text"] {
+background: cornsilk;
+}
+
+input[type="password"] {
+    color: gainsboro;
+}
+
+button[type="submit"] {
+    border: 2px solid forestgreen; 
+}
+
+/* you group 2 or more selectors using a comma (,) separator */
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer; 
+}
