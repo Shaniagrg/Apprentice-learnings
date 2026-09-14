@@ -1,0 +1,64 @@
+/*
+the whitespace between a descendant selector is considered a combinator 
+*/
+nav li {
+    margin-left: 1.5em;
+}
+
+/*
+A spaced-separated selector targets an element that is nested within another element. 
+You can also use the greater-than sign (>),
+                     plus sign (+), or 
+                     tilde (~) symbol as combinators.
+*/
+
+ul > li {
+    border: 1px dashed lightgrey; 
+}
+
+/*
+The adjacent sibling combinator (+) matches an element's immediate sibling within a parent. 
+The following HTML code shows <p> elements that immediately follow an <img> element:
+
+<img src="..." alt="...">
+<p>this is the adjacent paragraph...</p>
+
+<img src="..." alt="...">
+<p>this is another adjacent paragraph...</p>
+*/
+
+img + p {
+    margin-bottom: 20px;
+}
+
+/*
+In this HTML code, notice the two sibling <button> elements with the class .btn:
+
+<div>
+  <h2>Take Action Now</h2>
+  <button class="btn primary">Primary Action</button>
+  <button class="btn secondary">Secondary Action</button>
+</div>
+*/
+
+.btn + .btn {
+    margin-left: 20px; 
+}
+
+/*
+Target General Siblings
+The tilde symbol (~) is called a general sibling combinator because it not only targets immediate siblings, 
+but also every specified sibling that follows. The selector below targets all <div> elements that follow a <header>:
+
+
+<div>I do not have an aliceblue background, because I appear before the header.</div>
+<header>Any div that follows me will have an aliceblue background.</header>
+<div>I have an aliceblue background.</div>
+<img src="..." alt="cool sibling">
+<p>I am a paragraph, so no aliceblue background.</p>
+<div>I also have an aliceblue background.</div>
+*/
+
+header ~ div { 
+    background: aliceblue;
+}
